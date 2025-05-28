@@ -1,0 +1,142 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Segoe UI', sans-serif;
+}
+
+body {
+    background: #fff;
+    color: #000;
+}
+
+.navbar {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 20px 10%;
+    background-color: #f8f8f8;
+    position: sticky;
+    top: 0;
+    z-index: 10;
+}
+
+.logo {
+    font-size: 1.8rem;
+    font-weight: bold;
+    color: #007bff;
+}
+
+.nav-links {
+    list-style: none;
+    display: flex;
+    gap: 30px;
+}
+
+.nav-links a {
+    text-decoration: none;
+    color: #666;
+    font-weight: 500;
+}
+
+.nav-links .active {
+    color: #007bff;
+}
+
+.btn-contact {
+    padding: 10px 20px;
+    background: #007bff;
+    color: #fff;
+    border-radius: 20px;
+    text-decoration: none;
+    font-weight: 500;
+}
+
+.hero {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 5% 10%;
+}
+
+.hero-text {
+    max-width: 600px;
+}
+
+.hero-text h4 {
+    font-size: 1.5rem;
+    margin-bottom: 10px;
+}
+
+.hero-text h1 {
+    font-size: 2.5rem;
+    line-height: 1.4;
+    margin-bottom: 20px;
+}
+
+.hero-text .highlight {
+    color: #007bff;
+    text-decoration: underline;
+}
+
+.hero-text p {
+    font-size: 1rem;
+    color: #888;
+    margin-bottom: 30px;
+}
+
+.buttons {
+    display: flex;
+    gap: 20px;
+}
+
+.btn-primary {
+    background: #007bff;
+    color: #fff;
+    padding: 12px 25px;
+    border-radius: 25px;
+    text-decoration: none;
+    font-weight: 500;
+}
+
+.btn-secondary {
+    background: #fff;
+    color: #000;
+    padding: 12px 25px;
+    border: 1px solid #000;
+    border-radius: 25px;
+    text-decoration: none;
+    font-weight: 500;
+}
+
+.hero-image {
+    position: relative;
+    width: 400px;
+}
+
+.hero-image img {
+    width: 100%;
+    border-radius: 20px;
+}
+
+.badge {
+    position: absolute;
+    background: #007bff;
+    color: #fff;
+    padding: 5px 15px;
+    border-radius: 20px;
+    font-size: 0.9rem;
+    font-weight: 500;
+}
+
+.badge-top {
+    top: 10%;
+    left: -20%;
+    transform: rotate(-10deg);
+}
+
+.badge-bottom {
+    bottom: 5%;
+    right: -20%;
+    transform: rotate(10deg);
+}
